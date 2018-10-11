@@ -1,0 +1,22 @@
+{
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.compose",
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive"
+  ],
+  "gmail": {
+    "name": "Intro Email Generator",
+    "logoUrl": "https://www.gstatic.com/images/icons/material/system/2x/bookmark_black_24dp.png",
+    "contextualTriggers": [{
+      "unconditional": {
+      },
+      "onTriggerFunction": "buildAddOn"
+    }],
+    "openLinkUrlPrefixes": [
+      "https://mail.google.com/"
+    ],
+    "primaryColor": "#4285F4",
+    "secondaryColor": "#4285F4"
+  }
+}
