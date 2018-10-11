@@ -7,7 +7,7 @@
   ],
   "gmail": {
     "name": "Intro Email Generator",
-    "logoUrl": "https://www.gstatic.com/images/icons/material/system/2x/bookmark_black_24dp.png",
+    "logoUrl": "http://bethmcneill.com/img/hand-shake.png",
     "contextualTriggers": [{
       "unconditional": {
       },
